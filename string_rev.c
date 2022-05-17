@@ -4,6 +4,7 @@
  * rev_string - reverses a string.
  * @s: input string.
  * Return: no return.
+ * Author: Akokjede Peter and Opatola Dorcas
  */
 void rev_string(char *s)
 {
