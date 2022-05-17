@@ -51,6 +51,7 @@ char *swap_char(char *input, int bool)
  * @head_l: head of command lines list
  * @input: input string
  * Return: no return
+ * Author: Akojede Peter and Opatola Dorcas
  */
 void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 {
@@ -87,6 +88,7 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
  * @list_l: command line list
  * @datash: data structure
  * Return: no return
+ * Author: Akojede Peter and Opatola Dorcas
  */
 void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 {
@@ -129,6 +131,7 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
  * @datash: data structure
  * @input: input string
  * Return: 0 to exit, 1 to continue
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int split_commands(data_shell *datash, char *input)
 {
@@ -174,6 +177,7 @@ int split_commands(data_shell *datash, char *input)
  *
  * @input: input string.
  * Return: string splitted.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char **split_line(char *input)
 {
