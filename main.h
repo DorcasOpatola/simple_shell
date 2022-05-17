@@ -14,7 +14,7 @@
 
 #define BUFSIZE 1024
 #define TOK_BUFSIZE 128
-#define TOK_DELIM " \t\r\n\a"
+#define TOK_DELIM "\t\r\n\a"
 
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
@@ -29,6 +29,7 @@ extern char **environ;
  * @counter: lines counter
  * @_environ: environment variable
  * @pid: process ID of the shell
+ * Author: Akojede Peter and Opatola DOrcas
  */
 typedef struct data
 {
@@ -46,6 +47,7 @@ typedef struct data
  * @separator: ; | &
  * @next: next node
  * Description: single linked list to store separators
+ * Author: Akojede Peter and Opatola Dorcas
  */
 typedef struct sep_list_s
 {
@@ -58,6 +60,7 @@ typedef struct sep_list_s
  * @line: command line
  * @next: next node
  * Description: single linked list to store command lines
+ * Author: Akojede Peter and Opatola Dorcas
  */
 typedef struct line_list_s
 {
@@ -72,6 +75,7 @@ typedef struct line_list_s
  * @len_val: length of the value
  * @next: next node
  * Description: single linked list to store variables
+ * Author: Akojede Peter and Opatola Dorcas
  */
 typedef struct r_var_list
 {
@@ -85,6 +89,7 @@ typedef struct r_var_list
  * struct builtin_s - Builtin struct for command args.
  * @name: The name of the command builtin i.e cd, exit, env
  * @f: data type pointer function.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 typedef struct builtin_s
 {
