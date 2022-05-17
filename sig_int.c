@@ -3,6 +3,7 @@
 /**
  * get_sigint - Handle the crtl + c call in prompt
  * @sig: Signal handler
+ * Author: Akojede Peter and Opatola Dorcas
  */
 void get_sigint(int sig)
 {
