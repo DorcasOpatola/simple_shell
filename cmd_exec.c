@@ -29,6 +29,7 @@ int is_cdir(char *path, int *i)
  * @cmd: command name
  * @_environ: environment variable
  * Return: location of the command.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *_which(char *cmd, char **_environ)
 {
@@ -78,6 +79,7 @@ char *_which(char *cmd, char **_environ)
  *
  * @datash: data structure
  * Return: 0 if is not an executable, other number if it does
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int is_executable(data_shell *datash)
 {
@@ -124,6 +126,7 @@ int is_executable(data_shell *datash)
  * @dir: destination directory
  * @datash: data structure
  * Return: 1 if there is an error, 0 if not
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int check_error_cmd(char *dir, data_shell *datash)
 {
@@ -160,6 +163,7 @@ int check_error_cmd(char *dir, data_shell *datash)
  *
  * @datash: data relevant (args and input)
  * Return: 1 on success.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int cmd_exec(data_shell *datash)
 {
