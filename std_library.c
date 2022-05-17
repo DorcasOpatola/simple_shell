@@ -4,6 +4,7 @@
  * get_len - Get the lenght of a number.
  * @n: type int number.
  * Return: Lenght of a number.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int get_len(int n)
 {
@@ -31,6 +32,7 @@ int get_len(int n)
  * aux_itoa - function converts int to string.
  * @n: type int number
  * Return: String.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *aux_itoa(int n)
 {
@@ -69,6 +71,7 @@ char *aux_itoa(int n)
  * _atoi - converts a string to an integer.
  * @s: input string.
  * Return: integer.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int _atoi(char *s)
 {
