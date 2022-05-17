@@ -5,6 +5,7 @@
  *
  * @in: input string
  * Return: input without comments
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *without_comment(char *in)
 {
@@ -40,6 +41,7 @@ char *without_comment(char *in)
  * @datash: data relevant (av, input, args)
  *
  * Return: no return.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 void shell_loop(data_shell *datash)
 {
