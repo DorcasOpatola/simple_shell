@@ -6,6 +6,7 @@
  * @input: input string
  * @bool: type of swap
  * Return: swapped string
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *swap_char(char *input, int bool)
 {

@@ -7,6 +7,7 @@
  * @value: value (env or alias)
  *
  * Return: new env or alias.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *copy_info(char *name, char *value)
 {

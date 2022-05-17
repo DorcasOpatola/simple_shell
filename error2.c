@@ -8,6 +8,7 @@
  * @error: output message
  * @ver_str: counter lines
  * Return: error message
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {

@@ -5,6 +5,7 @@
  *
  * @datash: data relevant (args)
  * Return: 1 on success.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int exec_line(data_shell *datash)
 {

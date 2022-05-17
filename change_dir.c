@@ -5,6 +5,7 @@
  *
  * @datash: data relevant
  * Return: 1 on success
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int cd_shell(data_shell *datash)
 {

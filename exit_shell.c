@@ -5,6 +5,7 @@
  *
  * @datash: data relevant (status and args)
  * Return: 0 on success.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int exit_shell(data_shell *datash)
 {

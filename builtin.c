@@ -4,6 +4,7 @@
  * get_builtin - builtin that pairs the command in the arg
  * @cmd: command
  * Return: function pointer of the builtin command
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int (*get_builtin(char *cmd))(data_shell *)
 {

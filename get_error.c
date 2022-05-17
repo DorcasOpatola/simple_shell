@@ -5,6 +5,7 @@
  * @datash: data structure that contains arguments
  * @eval: error value
  * Return: error
+ * Author: Akojede Peter and Opatola Dorcas
  */
 int get_error(data_shell *datash, int eval)
 {

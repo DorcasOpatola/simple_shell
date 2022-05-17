@@ -4,6 +4,7 @@
  * error_env - error message for env in get_env.
  * @datash: data relevant (counter, arguments)
  * Return: error message.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 char *error_env(data_shell *datash)
 {

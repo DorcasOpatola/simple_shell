@@ -5,6 +5,8 @@
  *
  * @i_eof: return value of getline function
  * Return: input string
+ * Author: Akojede Peter and Opatola Dorcas
+ *
  */
 char *read_line(int *i_eof)
 {
