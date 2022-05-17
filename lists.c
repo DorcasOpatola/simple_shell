@@ -6,6 +6,7 @@
  * @head: head of the linked list.
  * @sep: separator found (; | &).
  * Return: address of the head.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 sep_list *add_sep_node_end(sep_list **head, char sep)
 {
@@ -37,6 +38,7 @@ sep_list *add_sep_node_end(sep_list **head, char sep)
  * free_sep_list - frees a sep_list
  * @head: head of the linked list.
  * Return: no return.
+ * Author: Akokjede Peter abd Opatola Dorcas
  */
 void free_sep_list(sep_list **head)
 {
