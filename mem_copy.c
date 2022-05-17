@@ -7,6 +7,7 @@
  * @size: size of the new pointer.
  *
  * Return: no return.
+ * Author: Akojede Peter and Opatola Dorcas
  */
 void _memcpy(void *newptr, const void *ptr, unsigned int size)
 {
@@ -27,6 +28,7 @@ void _memcpy(void *newptr, const void *ptr, unsigned int size)
  * Return: ptr.
  * if new_size == old_size, returns ptr without changes.
  * if malloc fails, returns NULL.
+ * Author:Akojede Peter and Opatola Dorcas
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -66,6 +68,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
  * Return: ptr.
  * if new_size == old_size, returns ptr without changes.
  * if malloc fails, returns NULL.
+ * Author:Akojede Peter and Opatola Dorcas
  */
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {
