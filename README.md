@@ -7,7 +7,7 @@ This project is a simple UNIX command interpreter in C languge.
 
 
 ## Description
-**simple****_****shell** is a simple UNIX command interpreter that replicates functionalities of the simple shell(sh). Additional functions are also included. This program was written entirely in C as a milestone project for ALX Africa Software Engineering.
+**simple_shell** is a simple UNIX command interpreter that replicates functionalities of the simple shell(sh). Additional functions are also included. This program was written entirely in C as a milestone project for ALX Africa Software Engineering.
 
 ## Installation
 Clone this repository into your working directory. For best results, files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -std=gnu89
@@ -20,9 +20,9 @@ In interactive mode, simply run the program and wait for the prompt to appear. F
 
 ## Non-Interactive Mode
 In non-interactive mode, echo your desired command and pipe it into the program like this:
-‘‘’
+
 > echo "ls" | ./shell
-‘‘‘
+
 In non-interactive mode, the program will exit after finishing your desired command(s).
 
 ## Included Built-Ins
@@ -37,4 +37,5 @@ Our shell has support for the following built-in commands:
 | help [built-in]	| Read documentation for a built-in |
 
 ## Authors
-@Akojede70 and @DorcasOpatola
+Akojede Peter and Dorcas Opatola
+
