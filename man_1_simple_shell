@@ -9,7 +9,7 @@ sodash\fR \- simple UNIX command interpreter
 soda\fR [\fIfilename\fR]
 
 .SH COPYRIGHT
-soda is Copyright (C) 2022 by Makinde Samuel and Adebesin Aramide
+soda is Copyright (C) 2022 by Akojede Peter and Dorcas Opatola
 
 .SH DESCRIPTION
 Soda\fR is a sh-compatible command language interpreter that executes commands read from the standard input or from a file.
